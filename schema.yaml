@@ -1,0 +1,8 @@
+metadata:
+  name: MyDatabase
+  version: 1.0.0
+  database: sqlserver
+  author: User
+  managerVersion: 2022
+  msVersion: 1.0
+...
