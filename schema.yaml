@@ -5,5 +5,19 @@ metadata:
   author: User
   managerVersion: 2022
   msVersion: 1.0
-  teste
-...
+  description: SQL Server database schema definition
+
+tables:
+  - name: ExampleTable
+    description: Primary data table
+    columns:
+      - name: id
+        type: int
+        nullable: false
+        primary_key: true
+      - name: name
+        type: nvarchar(255)
+        nullable: false
+      - name: created_at
+        type: datetime
+        nullable: false
