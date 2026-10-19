@@ -1,0 +1,14 @@
+layout:
+  diagram:
+    positions:
+      ExampleTable:
+        x: 50
+        y: 49
+    displayMode: physical
+    edgeType: smoothstep
+    viewport:
+      x: 97.79726627700245
+      y: 122.02058234614012
+      zoom: 0.8681402276010425
+  perspectives: {}
+  activePerspective: 

@@ -2,22 +2,20 @@ metadata:
   name: MyDatabase
   version: 1.0.0
   database: sqlserver
+  description: SQL Server database schema definition
   author: User
   managerVersion: 2022
   msVersion: 1.0
-  description: SQL Server database schema definition
-
 tables:
-  - name: ExampleTable
-    description: Primary data table
-    columns:
-      - name: id
-        type: int
-        nullable: false
-        primary_key: true
-      - name: name
-        type: nvarchar(255)
-        nullable: false
-      - name: created_at
-        type: datetime
-        nullable: false
+- name: ExampleTable
+  logicalName: teste
+  description: Primary data table
+  columns:
+  - name: id
+    type: int
+    primaryKey: true
+  - name: name
+    type: nvarchar(255)
+  - name: created_at
+    type: datetime
+...
