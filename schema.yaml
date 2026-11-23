@@ -18,4 +18,38 @@ tables:
     type: nvarchar(255)
   - name: created_at
     type: datetime
+- name: historico_usuario
+  columns:
+  - name: id
+    type: uuid
+    primaryKey: true
+    required: true
+  - name: user_id
+    type: int
+    required: true
+  - name: acao
+    type: nvarchar(255)
+    required: true
+  - name: descricao
+    type: nvarchar(1000)
+  - name: created_at
+    type: datetime
+    required: true
+dbObjects:
+- type: aggregateFunction
+  name: aggregateFunction_new_1
+  logicalName: teste_aggregate
+  properties:
+    returnType: int
+    inputType: nvarchar
+    assemblyName: customAggregate
+    className: MynameSpace
+- type: aggregateFunction
+  name: aggregateFunction_new_2
+  logicalName: testeaggregate2
+  properties:
+    inputType: int
+    returnType: int
+    assemblyName: Customaggregate
+    className: myaggragate
 ...

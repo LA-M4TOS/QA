@@ -2,13 +2,16 @@ layout:
   diagram:
     positions:
       ExampleTable:
+        x: 11
+        y: 50
+      historico_usuario:
         x: 50
-        y: 49
+        y: 299
     displayMode: physical
     edgeType: smoothstep
     viewport:
-      x: 97.79726627700245
-      y: 122.02058234614012
-      zoom: 0.8681402276010425
+      x: 426.89689004746475
+      y: 47.43821093469852
+      zoom: 1.2599210344716507
   perspectives: {}
   activePerspective: 
